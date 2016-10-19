@@ -4,4 +4,4 @@ Have aggressive caching on your server or framework?  Have issues with clients s
 
 Just instantiate the class and wrap your files with the file method.  **Like magic!**
 
-So damn good that you'll say _Thanks Obama"_.
+So damn good that you'll say, _"Thanks Obama"_.
