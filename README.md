@@ -18,4 +18,6 @@ The output will look something like this...
 <link rel="stylesheet" href="/styles/main.css?version=1476374736" />
 ```
 
+Now everytime you edit/update your file or image it will grab the file's `filemtime` and append it to the end of the file with a query string, assuring you that the browser will download the "new file" anytime it's updated.
+
 So damn good that you'll say, _"Thanks Obama"_.
