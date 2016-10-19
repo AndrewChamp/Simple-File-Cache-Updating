@@ -9,13 +9,16 @@
 		}
 	
 		public function file($path){
-			return $path.'?version='.filemtime($this->siteRoot.$path);
+			if(is_file($this->siteRoot.$path))
+				return $path.'?version='.filemtime($this->siteRoot.$path);
+			
+			return false;
 		}
 		
 	}
 	
 	
-	$cache = new cache('/home/user/public_html/yourwebsite.com');
+	// $cache = new cache(__DIR__);
 
 ?>
 
